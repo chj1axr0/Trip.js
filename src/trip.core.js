@@ -542,7 +542,7 @@ Trip.prototype = {
     }
 
     if (this.settings.backToTopWhenEnded) {
-      this.$root.animate({ scrollTop: 0 }, 'slow');
+      this.$root.animate({ scrollTop: 0 }, 800);
     }
 
     var tripObject = this.getCurrentTripObject();
